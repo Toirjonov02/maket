@@ -1,0 +1,385 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	width: 1100px;
+	height: 1200px;
+	border:1px solid white;
+	margin:0 auto;
+
+}
+.container .header{
+	height: 120px;
+	background-color: #333333;
+}
+.row{
+	width: 1000px;
+	margin:0 auto;
+}
+.container .header .hleft{
+	width: 500px;
+	float: left;
+}
+.container .header .hleft .htitle{
+	font-family: "Myriad Pro";
+	font-size: 60px;
+	color:#eeeeee;
+	line-height: 120px;
+}
+.container .header .hright{
+	width: 500px;
+	float: left;
+}
+.container .header .hright ul{
+	list-style-type: none;
+	margin-top:50px; 
+}
+.container .header .hright ul .link{
+	width: 90px;
+	/*display: inline-block;*/
+	float: left;
+	text-align: center;
+}
+.container .header .hright ul li{
+	color: white;
+	float: left;
+	text-align: center;
+}.container .header .hright ul li a{
+	color: #eeeeee;
+	font-size: 16px;
+	font-family: "Arial";
+	text-decoration-line: none;
+}
+.container .header .hright ul li .hactive{
+	color:#00aeef;
+}
+#tozalash{
+	clear: both;
+}
+h1{
+	font-family: Times New Roman;
+	font-size: 60px;
+	color: #333333;
+	 }
+	 h2{
+	 font-family: Times New Roman;
+	font-size: 50px;
+	color: #bbbbbb;
+	height: 85px;
+	border-bottom: 3px dotted #cccccc;
+}
+p{
+font-family: Times New Roman;
+font-size: 34px;
+color:#555555;
+font-style: lighter;
+border-bottom: 3px dotted #cccccc;
+height: 180px;
+}
+.tablisa{
+height: 390px;
+width: 1100px;
+margin:0 auto;
+}
+.tablisa1{
+	width: 295px;
+	height: 300px;
+	border:2px solid #00aeef;
+	float:left; 
+	padding: 1px;
+	margin: 15px; 
+	background-color: #00aeef;
+
+}
+.tablisa1mini{
+	width: 240px;
+	height: 60px;
+	border-bottom: 2px dotted #ffffff;
+	text-align: center;
+	padding: 1px;
+	margin: 15px auto;
+	font-size: 40px;
+	color: #ffffff;
+	font-family: Arial;	
+}
+.mini{
+	width: 250px;
+	height: 200px;
+	background-color:#00aeef;
+	border:2px solid #00aeef;
+	padding: 1px;
+	margin: 30px auto; 
+	font-size: 14px;
+	text-align: center;
+	color: #bbe9fb;
+	font-family: arial;
+}
+.button{
+	width: 235px;
+	height: 50px;
+	border: 2px solid #116483;
+	background-color: #0076a3;
+	}
+	.button,a{
+	 text-decoration: none;
+	font-family:Arial;
+	color: white;
+	text-align: center;
+	}.tablisa2{
+	width: 295px;
+	height: 300px;
+	border:2px solid #00aeef;
+	float:left; 
+	padding: 1px;
+	margin: 15px; 
+	background-color: #00aeef;
+
+}
+.tablisa1mini2{
+	width: 240px;
+	height: 60px;
+	border-bottom: 2px dotted #ffffff;
+	text-align: center;
+	padding: 1px;
+	margin: 15px auto;
+	font-size: 40px;
+	color: #ffffff;
+	font-family: Arial;	
+}
+.mini2{
+	width: 250px;
+	height: 200px;
+	background-color:#00aeef;
+	border:2px solid #00aeef;
+	padding: 1px;
+	margin: 30px auto; 
+	font-size: 14px;
+	text-align: center;
+	color: #bbe9fb;
+	font-family: Arial;
+}
+.button2{
+	width: 235px;
+	height: 50px;
+	border: 2px solid #116483;
+	background-color: #0076a3;
+	}
+	.button2,a{
+	 text-decoration: none;
+	 font-size: 8px;
+	font-family: Arial;
+	color: white;
+	text-align: center;
+	}
+.tablisa3{
+	width: 295px;
+	height: 300px;
+	border:2px solid #00aeef;
+	float:left; 
+	padding: 1px;
+	margin: 15px; 
+	background-color: #00aeef;
+
+}
+.tablisa1mini3{
+	width: 240px;
+	height: 60px;
+	border-bottom: 2px dotted #ffffff;
+	text-align: center;
+	padding: 1px;
+	margin: 15px auto;
+	font-size: 40px;
+	color: #ffffff;
+	font-family: Arial;	
+}
+.mini3{
+	width: 250px;
+	height: 200px;
+	background-color:#00aeef;
+	border:2px solid #00aeef;
+	padding: 1px;
+	margin: 30px auto; 
+	font-size: 14px;
+	text-align: center;
+	color: #bbe9fb;
+	font-family: Arial;
+}
+.button3{
+	width: 230px;
+	height: 50px;
+	border: 2px solid #116483;
+	background-color: #0076a3;
+	}
+	.button3,a{
+	 text-decoration: none;
+	 font-size: 18px;
+	font-family:Arial;
+	color: white;
+	text-align: center;
+	}
+	.border{
+		width: 1000px;
+		border-bottom: 3px dotted #cccccc;}
+	.body{
+	width: 1000px;
+	height: 610px;
+	}
+	.body1{
+		width: 483px;
+		height: 550px;
+		border: 2px solid white;
+		float: left;
+		padding: 1px;
+		margin: 5px;
+		border-right:2px dotted #cccccc;
+			}
+	.body2{
+	width: 483px;
+	height: 424px;
+	border:2px solid white;
+	float: left;
+	padding: 1px;
+	margin: 5px;
+			}
+	.bodymini{
+		width: 200px;
+		height: 50px;
+		border: 2px solid white;
+		padding: 2px;
+		margin: 2px;
+		font-size: 24px;
+		font-family: Arial;
+	}		
+	.table1{
+		width: 465px;
+		height: 125px;
+		border: 2px solid white;
+		margin: 20px auto;
+		float: left;
+	}
+	.table2{
+		width: 120px;
+		height: 150px;
+		border:2px solid #cccccc;
+		float: left;
+		background-color:#cccccc;
+		padding: 1px;
+		margin: 3px ;  
+	}
+	.table3{
+		width: 333px;
+		height: 120px;
+		font-family: Arial;
+		font-size: 17px;
+		color: #555555;
+	}	
+	.table4{
+		width: 465px;
+		height: 125px;
+		border: 2px solid white;
+		float: left;
+	}
+	.tablemini4{
+		width: 120px;
+		height: 135px;
+		border: 2px solid  #cccccc;
+		float: left;
+		background-color:#cccccc;
+		padding: 1px;
+		margin: 1px auto; 
+	}
+.tablemini5{
+	width: 333px;
+	height: 120px;
+	border: 2px solid white;
+	float: left;
+	font-size: 17px;
+	font-family: Arial;
+	color: #555555;
+	padding: 1px;
+	margin: 1px auto;
+}.table5{
+		width: 465px;
+		height: 125px;
+		border: 2px solid white;
+		float: left;
+		padding: 1px;
+		margin: 1px auto;
+	}
+		.tablemini6{
+		width: 120px;
+		height: 130px;
+		border: 2px solid  #cccccc;
+		float: left;
+		background-color:#cccccc;
+		margin: 1px auto;
+		padding: 1px; 
+	}
+.tablemini7{
+	width: 333px;
+	height: 120px;
+	border: 2px solid white;
+	float: left;
+	font-size: 18px;
+	font-family: Arial;
+	color: #555555;
+	padding: 1px;
+	margin: 1px auto;
+}
+.title1{
+width: 500px;
+height:80px;
+border: 2px solid white;
+font-size: 26px;
+font-family: Arial;
+color: #555555; 
+}
+.car{
+	font-family: Arial;
+	font-size: 25px;
+	color: #a8a8a8;
+}
+.title2{
+	width: 454px;
+	height: 200px;
+	border: 2px solid #cccccc;
+	background-image:url("photo/yoshi theme.jpg");
+	background-size: 420px 200px; 
+	margin: 0;
+	padding: 1px;
+}	
+.title3{
+	width: 450px;
+	height: 90px;
+	border:2px solid white;
+	font-family: Arial;
+	font-size: 20px;
+	text-align: left;
+	padding: 0px;
+	margin: 0px auto;
+	color: #929292;
+}
+.title4{
+	width: 300px;
+	height: 50px;
+	border: 2px solid white;
+}
+.title4,a{
+	text-decoration: none;
+	color: #22b9f1;
+	font-family: arial;
+	font-size: 20px;
+	padding: 1px;
+	margin: 5px ;
+}
+.bodybottom{
+	width: 1050px;
+	height: 100px;
+	border-top:2px dotted #cccccc;
+	padding: 1px;
+	margin: 18px;
+	font-family: arial;
+	font-size: 20px;
+	color: #888888;
+}
